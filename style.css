@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu ul li{
+    list-style-type: none;
+}
+.nav-menu ul li .link{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 15px;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button .btn{
+    text-align: center;
+    width: 130px;
+    height: fit-content;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.btn:hover{
+    background: rgba(255, 255, 255, 0.3);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+input {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-content {
+    margin-top: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    width: 350px;
+    max-width: 350px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(7, 7, 70);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color:rgb(115, 79, 245);
+}
+
+a {
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(0, 0, 230);
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: rgb(210, 210, 210);
+    color: rgb(255, 255, 255);
+    background-color: rgb(120, 120, 120);
+}
+
+small {
+    color: red;
+}
